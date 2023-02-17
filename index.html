@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <nav>
+        <h1>CodeEd</h1>
+        <ul>
+             <li><button class="btn">DarkMode</button></li>
+             <li><button class="btn">LightMode</button></li>
+             <li><button class="btn run">Run</button></li>
+             <li><button class="btn btn-live">
+                <label for="live">Live</label>
+                <input type="checkbox" name="" id="live"  >
+             </button></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="left">
+            <div class="editor" contenteditable="">
+                Write you code hear...
+            </div>
+        </div>
+        <div class="bar" title="Click and Drage"></div>
+        <div class="right">
+            <iframe src="" frameborder="0" class="iframe"></iframe>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
